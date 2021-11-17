@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\HocJavascript"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WebBaiTapLon"
+	}
+}

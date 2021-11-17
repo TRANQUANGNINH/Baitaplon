@@ -1,0 +1,89 @@
+@media (min-width: 1024px) and (max-width: 1366px)
+{   
+    .sign-in 
+    {
+        margin: 0;
+    }
+    .sign-in a
+    {
+        padding: 13px 19px;
+    }
+    .Navbar
+    {
+       margin: 0;
+    }
+    .modal--above {
+        top: 50%;
+    }
+    .btn-menu span{
+        display: none;
+    };
+} 
+
+@media (max-width:1023px){
+    .Navbar
+    {
+        display: none;
+    }
+    .btn-menu span:last-child,
+    .btn-menu span:first-child
+    {
+        font-size: 26px;
+        color: #fff;
+        padding-left: 17px;
+    }
+    .btn-menu span:first-child
+    {
+        display: block;
+    }
+    main{
+        width: 100%;
+    }
+    .theater-container
+    {
+        display: none;
+    }
+}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px){
+    footer {
+        min-height: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .label h1
+    {
+        font-size: 22px;
+        padding: 0 14px;
+    }
+    .search i
+    {
+        padding: 39px 10px;
+    }
+    .langue a
+    {
+        padding: 0 10px;
+    }
+    .sign-in a:first-child
+    {
+        display: none;
+    }
+    .sign-in a:last-child
+    {
+        font-size: 24px;
+        color: #fff;
+        padding: 12px 14px;
+        display: block;
+    }
+    .btn-menu span:last-child,
+    .btn-menu span:first-child
+    {
+        padding-left: 32px;
+    }
+    footer{
+        padding: 70px 18px 30px;
+    }
+}

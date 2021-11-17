@@ -1,0 +1,93 @@
+@media (min-width: 1024px) and (max-width: 1366px)
+{   
+    .sign-in 
+    {
+        margin: 0;
+    }
+    .sign-in a
+    {
+        padding: 13px 12px;
+    }
+    .Navbar
+    {
+       margin: 0;
+    }
+    .modal--above {
+        top: 50%;
+    }
+}
+
+@media (max-width:1023px){
+    .Navbar
+    {
+        display: none;
+    }
+    .btn-menu span:last-child,
+    .btn-menu span:first-child
+    {
+        font-size: 26px;
+        color: #fff;
+        padding-left: 17px;
+    }
+    .btn-menu span:first-child
+    {
+        display: block;
+    }
+    .modal-sign-in a:first-child, .sign-in a {
+        padding: 13px 26px;
+    }
+    .modal
+    {
+        top: -25%
+    }
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .film1,
+    .film2,
+    .film3,
+    .film4 {
+    width: 184px;
+    }
+}
+
+@media (max-width: 739px){
+    .label h1
+    {
+        font-size: 22px;
+        padding: 0 14px;
+    }
+    .search i
+    {
+        padding: 39px 10px;
+    }
+    .langue a
+    {
+        padding: 0 10px;
+    }
+    .sign-in a:first-child
+    {
+        display: none;
+    }
+    .sign-in a:last-child
+    {
+        font-size: 24px;
+        color: #fff;
+        padding: 12px 14px;
+        display: block;
+    }
+    .btn-menu span:last-child,
+    .btn-menu span:first-child
+    {
+        padding-left: 32px;
+    }
+    footer{
+        margin-top: 40px;
+        padding: 70px 18px 30px;
+    }
+    .slider
+    {
+        padding-top: 44px;
+    }
+}

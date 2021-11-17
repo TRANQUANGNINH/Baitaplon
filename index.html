@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/gridStyle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>CINEMAS</title>
+</head>
+<body>
+    <!--HAEDER-->
+    <header>
+        <div class="grid wide">
+            <div class="row edit-row">
+                <div class="col l-9 m-6 c-4">
+                    <div class="selector-hd-nv">
+                        <div class="label">
+                            <h1><span>CINEMAS</span></h1>
+                        </div>
+                        <div class="Navbar">
+                            <ul class="Navbar-list">
+                                <li class="Navbar-item">
+                                <a href="/muave/index.html">Mua vé</a> 
+                                </li>
+                                <li class="Navbar-item">
+                                <a href="">Phim</a> 
+                                </li>
+                                <li class="Navbar-item">
+                                <a href="rap/CGV.html">Rạp chiếu</a> 
+                                </li>
+                                <li class="Navbar-item">
+                                <a href="khuyenmai/promotion.html">Khuyến mãi</a> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-8">
+                    <div class="selector-sr-sg">
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <p class="langue"><a href="">VN</a></p>
+                        <div class="sign-in">
+                            <a href="#">Sign in</a>
+                            <a href=""><i class="fas fa-sign-out-alt"></i></a> 
+                        </div>
+                        <div class="btn-menu">
+                            <span><i class="fas fa-bars"></i></span>
+                            <span><i class="fas fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row search-edit">
+                <div class="col l-12 m-12 c-12">
+                    <div class="search-task">
+                        <input type="text" placeholder="Search...">
+                        <div class="search-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="select-slider">
+            <div class="overlay"></div>
+            <div class="grid wide">
+                <div class="row">    
+                    <div class="col l-12 m-12 c-12">
+                        <!--SLIDER-->
+                        <div class="slider">
+                            <div class="slider-content">
+                                <div class="slider-btn-left">
+                                    <a href="#">
+                                    <i class="fas fa-chevron-left"></i>
+                                    </a> 
+                                </div>
+                                <ul class="slider-list">
+                                    <li class="slider-item">
+                                        <img src="assets/img/slider/371e8ae94710472896e294e42496b797.png" alt="">
+                                    </li>
+                                    <li class="slider-item">
+                                        <img src="assets/img/slider/4f318947682e49f4bbc0631b6b1eba63.png" alt="">
+                                    </li>
+                                    <li class="slider-item">
+                                        <img src="assets/img/slider/6455bb361d2c4aa4a34ffbfe69e5fd01.jpg" alt="">
+                                    </li>
+                                    <li class="slider-item">
+                                        <img src="assets/img/slider/a5a303604190462baab81bfc103753c6.png" alt="">
+                                    </li>
+                                    <li class="slider-item">
+                                        <img src="assets/img/slider/d503d574995149699de9640cda275724.jpg" alt="">
+                                    </li>
+                                </ul>
+                                <div class="dots">
+                                    <span class="dot"></span> 
+                                    <span class="dot"></span> 
+                                    <span class="dot"></span> 
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                                <div class="bottom--slc"></div>
+                                <div class="slider-btn-right">
+                                    <a href="#">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <!--MOVIE-->
+        <div id="movie">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="movie-content">
+                            <div class="movie-btn">
+                                <button class="movie-btn--show">
+                                    <span>Phim đang chiếu</span> 
+                                </button>
+                                <button class="movie-btn--show">
+                                    <span>Phim sắp chiếu</span> 
+                                </button>
+                            </div>
+                            <div class="movie-new">
+                                <div class="row">
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10766_103_100002.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>TỘC SĂN NGƯỜI</p>
+                                                <p>105Phút | 29/10/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10778_103_100001.png" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>HUNG THẦN TRẮNG</p>
+                                                <p>91Phút | 29/10/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10756_103_100002.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>THE CONJURING: MA XUI QUỶ KHIẾN</p>
+                                                <p>112Phút | 29/10/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10762_103_100002.png" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>KẺ NGUYỀN TA CHẾT</p>
+                                                <p>100Phút | 05/11/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-new">
+                                <div class="row">
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10453_103_100004.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>LẬT MẶT 48H</p>
+                                                <p>110Phút | 16/04/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/1200x1800_1.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>BỐ GIÀ</p>
+                                                <p>128Phút | 12/03/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10708_103_100002.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>GODZILLA VS. KONG</p>
+                                                <p>113Phút | 26/03/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/main_poster_mtb_1__1.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>ONG PHƯU LƯU NHÍ</p>
+                                                <p>105Phút | 23/04/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="movie-old hidden">
+                                <div class="row">
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10767_103_100002.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>ÂM HỒN NHẬP XÁC</p>
+                                                <p>12/11/2021 | Chưa mở</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10732_103_100001.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>SHANG-CHI VÀ HUYỀN THOẠI THẬP LUÂN</p>
+                                                <p>12/11/2021 | Chưa mở</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10759_103_100001.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>HIỆN THÂN TÀN ÁC</p>
+                                                <p>12/11/2021 | Chưa mở</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10593_103_100009.png" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>THIÊN THẦN HỘ MỆNH</p>
+                                                <p>12/11/2021 | Chưa mở</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="movie-old hidden">
+                                <div class="row">
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10761_103_100001.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>ĐIỆP VỤ CẢM TỬ</p>
+                                                <p>19/11/21 | Chưa mở</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10459_103_100003.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>THỎ PETER 2</p>
+                                                <p>19/11/2021 | Chưa mở</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10440_103_100003.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>VÙNG ĐẤT CÂM LẶNG 2</p>
+                                                <p>19/11/2021 | Chưa mở</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-6 c-12">
+                                        <div class="movie-item">
+                                            <div class="movie--btn">
+                                                <div class="overlay-movie">
+                                                    <button class="btn-sale">Đặt vé</button>
+                                                    <button class="btn-infor">Chi tiết</button>
+                                                </div>
+                                                <a href=""><img src="assets/img/movie/10750_103_100001.jpg" alt=""></a>
+                                            </div>
+                                            <div class="movie-text">
+                                                <p>RESIDENT EVIL: QUỶ DỮ TRỖI DẬY</p>
+                                                <p>26/11/2021 | Chưa mở</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--EVENt-->
+        <div class="anyTrailer ">
+            <div class="trailer-bg">
+                <div class="anyTrailer-content">
+                    <!-- <div class="grid wide"> -->
+                        <div class="grid wide">
+                            <div class="row">
+                                <div class="col l-4 m-12 c-12">
+                                    <ul class="anyTrailer-list">
+                                        <li class="anyTrailer-item anyTrailer--blur">
+                                            <img src="assets/img/movie/10750_103_100001.jpg" alt="">
+                                            <p class="anyTrailer-num">1</p>
+                                            <div class="anyTrailer-name">
+                                                <p>RESIDENT EVIL: QUỶ DỮ TRỖI DẬY</p>
+                                                <p>26/11/2021</p>
+                                            </div>
+                                            <p class="anyTrailer-rate">
+                                                8.9
+                                            </p>
+                                        </li>
+                                        <li class="anyTrailer-item">
+                                            <img src="assets/img/movie/10732_103_100001.jpg" alt="">
+                                            <p class="anyTrailer-num">2</p>
+                                            <div class="anyTrailer-name">
+                                                <p>THE CONJURING: MA XUI QUỶ KHIẾN</p>
+                                                <p>29/10/2021</p>
+                                            </div>
+                                            <p class="anyTrailer-rate">
+                                                9.8
+                                            </p>
+                                        </li>
+                                        <li class="anyTrailer-item ">
+                                            <img src="assets/img/movie/10778_103_100001.png" alt="">
+                                            <p class="anyTrailer-num">3</p>
+                                            <div class="anyTrailer-name">
+                                                <p>RESIDENT EVIL: QUỶ DỮ TRỖI DẬY</p>
+                                                <p>29/10/2021</p>
+                                            </div>
+                                            <p class="anyTrailer-rate">
+                                                8.9
+                                            </p>
+                                        </li>
+                                        <li class="anyTrailer-item ">
+                                            <img src="assets/img/img4.jpg" alt="">
+                                            <p class="anyTrailer-num">4</p>
+                                            <div class="anyTrailer-name">
+                                                <p>SPACE JAW: KỶ NGUYÊN MỚI</p>
+                                                <p>26/11/2021</p>
+                                            </div>
+                                            <p class="anyTrailer-rate">
+                                                9.0
+                                            </p>
+                                        </li>
+                                        <li class="anyTrailer-item ">
+                                            <img src="assets/img/movie/10766_103_100002.jpg" alt="">
+                                            <p class="anyTrailer-num">5</p>
+                                            <div class="anyTrailer-name">
+                                                <p>TỘC SĂN NGƯỜI</p>
+                                                <p>29/10/2021</p>
+                                            </div>
+                                            <p class="anyTrailer-rate">
+                                                8.5
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col l-8 m-12 c-12">
+                                    <div class="anyTrailer-play">
+                                        <div class="anyTrailer-vd--head">
+                                            <h1>VIDEO</h1>
+                                            <h1>PLAY</h1>
+                                        </div>
+                                        <div class="anyTrailer-icon">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                    <div class="anyTrailer-video">
+                                        <video src="assets/video/0_video.mp4"></video>
+                                        <img src="assets/video/0_img.jpg" alt="">
+                                        <div class="anyTrailer-video--icon">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>   
+        </div>
+        <!--AD-->
+        <div class="selector-ad">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="selector-item-1">
+                        </div>
+                        <div class="selector-item-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-6 c-6">
+                    <ul class="down-list">
+                        <li class="down-item">
+                            <h3>Tải ứng dụng</h3>
+                        </li>
+                        <li class="down-item">
+                            <img src="assets/img/down/tải xuống.png" alt="">
+                        </li>
+                        <li class="down-item">
+                            <img src="assets/img/down/google-play-badge.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col l-3 m-6 c-6">
+                    <ul class="Resources-list">
+                        <li class="Resources-item">
+                            <h3>Thông tin</h3>
+                        </li>
+                        <li class="Resources-item">
+                            <a href="">Về chúng tôi</a> 
+                        </li>
+                        <li class="Resources-item">
+                            <a href="">Tuyển dụng</a> 
+                        </li>
+                        <li class="Resources-item">
+                            <a href="">Trợ giúp</a> 
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col l-3 m-6 c-6">
+                    <ul class="legal-list">
+                        <li class="legal-item">
+                            <h3>Pháp lí</h3>
+                        </li>
+                        <li class="legal-item">
+                            <a href="">Điều khoản sử dụng</a>
+                        </li>
+                        <li class="legal-item">
+                            <a href="">Chính sách bảo mật</a>
+                        </li>
+                        <li class="legal-item">
+                            <a href="">Bảo vệ</a>
+                        </li>
+                    </ul>
+                </div>     
+                
+                <div class="col l-3 m-6 c-6">
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <h3>Liên hệ</h3>
+                        </li>
+                        <li class="contact-item">
+                            <a href="">0988562144</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="">support@CINEMAS.com</a> 
+                        </li>
+                        <li class="contact-item">
+                            <span class="item--icon">
+                                <i class="fab fa-facebook-square"></i>
+                            </span>
+                            <span class="item--icon">
+                                <i class="fab fa-instagram-square"></i>
+                            </span>
+                            <span class="item--icon">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                            <span class="item--icon">
+                                <i class="fab fa-yahoo"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="coppy-right">
+                <p>&copy;2020 <a href="">CINEMAS</a>. Creat by Team 2</p>
+            </div>
+        </div>
+    </footer>
+    <!--Sign In-->
+    <div class="modal">
+        <div class="overlay-modal"></div>
+        <div class="modal--above">
+            <span class="modal-icon">
+                <i class="far fa-times-circle"></i>
+            </span>
+            <div class="modal-form">
+                <div class="modal-heading">
+                    <div class="label">
+                        <h1>THE <span>CINEMA</span></h1>
+                    </div>
+                </div>
+                <div class="modal-infor">
+                    <input type="text" placeholder="Email...">
+                </div>
+                <div class="modal-infor">
+                    <input type="password" placeholder="Password...">
+                </div>
+                <div class="modal-infor">
+                    <input type="checkbox">
+                    <label for="">Ghi nhớ tài khoản</label>
+                </div>
+                <div class="modal-sign-in">
+                    <a href="#">Sign in</a>
+
+                </div>
+                <div class="modal-sign-up">
+                    <span>Bạn muốn đăng ký ?</span>
+                    <a href="#">Sign up!</a>
+                </div>
+                <div class="modal-forgot">
+                    <a href="#">Bạn quên mật khẩu ?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sign UP-->
+    <div class="modal">
+        <div class="overlay-modal"></div>
+        <div class="modal--above">
+            <span class="modal-icon">
+                <i class="far fa-times-circle"></i>
+            </span>
+            <div class="modal-form">
+                <div class="modal-heading">
+                    <div class="label">
+                        <h1>THE <span>CINEMA</span></h1>
+                    </div>
+                </div>
+                <div class="modal-infor">
+                    <input type="text" placeholder="Name...">
+                </div>
+                <div class="modal-infor">
+                    <input type="email" placeholder="Email...">
+                </div>
+                <div class="modal-infor skill">
+                    <input type="password" placeholder="Password...">
+                </div>
+                <div class="modal-infor-check">
+                    <input type="checkbox">
+                    <label for="">Bạn đồng ý điều khoản bảo mật</label>
+                </div>
+                <div class="modal-sign-in">
+                    <a href="#">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-menu"></div>
+    <div class="menu ">
+        <div class="menu-right">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="">
+                        Mua vé
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="">
+                        Phim
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="">
+                        Rạp chiếu
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="">
+                        Khuyến mãi
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

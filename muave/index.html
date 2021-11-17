@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/gridStyle.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--HAEDER-->
+    <header>
+        <div class="grid wide">
+            <div class="row edit-row">
+                <div class="col l-9 m-6 c-4">
+                    <div class="selector-hd-nv">
+                        <div class="label">
+                            <h1><span>CINEMAS</span></h1>
+                        </div>
+                        <div class="Navbar">
+                            <ul class="Navbar-list">
+                                <li class="Navbar-item">
+                                <a href="">Mua vé</a> 
+                                </li>
+                                <li class="Navbar-item">
+                                <a href="../index.html">Phim</a> 
+                                </li>
+                                <li class="Navbar-item">
+                                <a href="../rap/CGV.html">Rạp chiếu</a> 
+                                </li>
+                                <li class="Navbar-item">
+                                <a href="../khuyenmai/promotion.html">Khuyến mãi</a> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-6 c-8">
+                    <div class="selector-sr-sg">
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <p class="langue"><a href="">VN</a></p>
+                        <div class="sign-in">
+                            <a href="#">Sign in</a>
+                            <a href=""><i class="fas fa-sign-out-alt"></i></a> 
+                        </div>
+                        <div class="btn-menu">
+                            <span><i class="fas fa-bars"></i></span>
+                            <span><i class="fas fa-times"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row search-edit">
+                <div class="col l-12 m-12 c-12">
+                    <div class="search-task">
+                        <input type="text" placeholder="Search...">
+                        <div class="search-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Main-->
+    <main>
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-12 m-12 c-12">
+                    <div class="ticket">
+                        <div class="row">
+                            <div class="col l-8 c-12 m-12">
+                                <div class="ticket-slc-cinema">
+                                    <h2 class="ticket-heading">Rạp</h2>
+                                    <div class="row">
+                                        <div class="col l-3 c-3 m-3">
+                                            <div class="ticket-cities">
+                                                <ul class="cities-list">
+                                                    <li class="cities-item cities-item--blur">
+                                                        <a href="">TPHCM</a>
+                                                    </li>
+                                                    <li class="cities-item">
+                                                        <a href="">Hà Nội</a>
+                                                    </li>
+                                                    <li class="cities-item">
+                                                        <a href="">ĐB Sông Hồng</a>
+                                                    </li>
+                                                    <li class="cities-item">
+                                                        <a href="">Bắc Miền Trung</a>
+                                                    </li>
+                                                    <li class="cities-item">
+                                                        <a href="">Nam Miền Trung</a>
+                                                    </li>
+                                                    <li class="cities-item">
+                                                        <a href="">Đông Nam Bộ</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col l-9 c-9 m-9">
+                                            <div class="ticket-streets active">
+                                                <ul class="streets-list">
+                                                    <li class="streets-item">
+                                                        <a href="">Cộng Hòa</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Gò Vấp</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Cộng Hòa</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Nam Sài Gòn</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Thủ Đức</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Phú Thọ</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Gold View</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="ticket-streets">
+                                                <ul class="streets-list">
+                                                    <li class="streets-item">
+                                                        <a href="">Hà Đông</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Long Biên</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Minh Khai</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Thăng Long</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Hai Bà Trưng</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="ticket-streets">
+                                                <ul class="streets-list">
+                                                    <li class="streets-item">
+                                                        <a href="">Bắc Giang</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Bắc Ninh</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Hải Dương</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Hải Phòng</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Thái Bình</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Ninh Bình</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Nam Định</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="ticket-streets">
+                                                <ul class="streets-list">
+                                                    <li class="streets-item">
+                                                        <a href="">Đồng Hới</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Huế</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Thanh Hóa</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Vinh</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="ticket-streets">
+                                                <ul class="streets-list">
+                                                    <li class="streets-item">
+                                                        <a href="">Bảo Lộc</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Đà Nẵng</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Hội An</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Phan Rang</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Phan Thiết</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Nha Trang Trần Phú</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Nha Trang Thái Nguyên</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="ticket-streets">
+                                                <ul class="streets-list">
+                                                    <li class="streets-item">
+                                                        <a href="">Biên Hòa</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Bình Dương</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Dĩ An</a>
+                                                    </li>
+                                                    <li class="streets-item">
+                                                        <a href="">Vũng Tàu</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 c-12 m-12">
+                                <h2 class="ticket-heading-movie">Phim</h2>
+                                <ul class="ticket-movie-list">
+                                    <li class="ticket-movie-item">
+                                        <i class="fas fa-check "></i>
+                                        <a href="">THE CONJURING: MA XUI QUỶ KHIẾN</a>
+                                    </li>
+                                    <li class="ticket-movie-item">
+                                        <i class="fas fa-check "></i>
+                                        <a href="">KẺ NGUYỀN TA CHẾT</a>
+                                    </li>
+                                    <li class="ticket-movie-item">
+                                        <i class="fas fa-check "></i>
+                                        <a href="">TỘC SĂN NGƯỜI</a>
+                                    </li>
+                                    <li class="ticket-movie-item">
+                                        <i class="fas fa-check"></i>
+                                        <a href="">HUNG THẦN TRẮNG</a>
+                                    </li>
+                                    <li class="ticket-movie-item">
+                                        <i class="fas fa-check"></i>
+                                        <a href="">LẬT MẶT 48H</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking">
+                        <div class="row">
+                            <div class="col l-12">
+                                <div class="booking-type">
+                                    <table>
+                                        <tr>
+                                            <th>Loại vé</th>
+                                            <th>Số lượng</th>
+                                            <th>Giá(VND)</th>
+                                            <th>Tổng(VND)</th>
+                                        </tr>
+                                        <tr class="second-line">
+                                            <td>
+                                                <p class="type--heading">Người lớn</p>
+                                                <p>Vé 2D</p>
+                                            </td>
+                                            <td>
+                                                <button class="type--btn">-</button>
+                                                <input type="text" maxlength="1">
+                                                <button class="type--btn">+</button>
+                                            </td>
+                                            <td>
+                                                <p class="type--price">75.000</p>
+                                            </td>
+                                            <td>
+                                                <p class="type-count">0</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="second-three">
+                                            <td>
+                                                <p class="type--heading">Thành viên</p>
+                                                <p>Vé 2D (áp dụng cho khách hàng có thẻ thành viên)</p>
+                                            </td>
+                                            <td>
+                                                <button class="type--btn">-</button>
+                                                <input type="text" maxlength="1">
+                                                <button class="type--btn">+</button>
+                                            </td>
+                                            <td>
+                                                <p class="type--price">70.000</p>
+                                            </td>
+                                            <td>
+                                                <p class="type-count">0</p>
+                                            </td>
+                                        </tr>
+                                        <tr class="sum">
+                                            <td colspan="3">
+                                                <h3>Tổng</h3>
+                                            </td>
+                                            <td>
+                                                <span>0</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12">
+                                <div class="date">
+                                    <h3>Chọn lịch</h3>
+                                    <div class="date-box">
+                                        <div class="date--week">
+                                            <p>Thứ tư, 17/11/2021</p>
+                                            <div class="ticket--type">
+                                                <p>2D - phụ đề</p>
+                                                <div class="type-date--btn">
+                                                    <button >18:30</button>
+                                                    <button >19:30</button>
+                                                    <button >20:30</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="date--week">
+                                            <p>Thứ bảy, 19/11/2021</p>
+                                            <div class="ticket--type">
+                                                <p>2D - phụ đề</p>
+                                                <div class="type-date--btn">
+                                                    <button>18:30</button>
+                                                    <button >19:30</button>
+                                                    <button >20:30</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col l-12 c-12 m-12">
+                                <div class="seat">
+                                    <h3 class="seat-heading">Chọn ghế</h3>
+                                    <div class="seat-box">
+                                         <table>
+                                            <tr>
+                                                <td class="seat-font">
+                                                   <p>A</p> 
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check">
+                                                    <label for="check">0</label> 
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check1">
+                                                    <label for="check1">1</label>  
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check2">
+                                                    <label for="check2">2</label>   
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check3">
+                                                    <label for="check3">3</label>  
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check4">
+                                                    <label for="check4">4</label>   
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check5">
+                                                    <label for="check5">5</label>  
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="seat-font">
+                                                    <p>B</p> 
+                                                 </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check6">
+                                                    <label for="check6">6</label> 
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check7">
+                                                    <label for="check7">7</label> 
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check8">
+                                                    <label for="check8">8</label>  
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check9">
+                                                    <label for="check9">9</label> 
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check10">
+                                                    <label for="check10">10</label> 
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check11">
+                                                    <label for="check11">11</label>  
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="seat-font">
+                                                    <p>C</p> 
+                                                 </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check12">
+                                                    <label for="check12">12</label>
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check13">
+                                                    <label for="check13">13</label>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check14">
+                                                    <label for="check14">14</label> 
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check15">
+                                                    <label for="check15">15</label>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check16">
+                                                    <label for="check16">16</label> 
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check17">
+                                                    <label for="check17">17</label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="seat-font">
+                                                    <p>D</p> 
+                                                 </td>
+                                                 <td class="seat-nb">
+                                                    <input type="checkbox" id="check18">
+                                                    <label for="check18">18</label> 
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check19">
+                                                    <label for="check19">19</label> 
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check20">
+                                                    <label for="check20">20</label> 
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check21">
+                                                    <label for="check21">21</label>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check22">
+                                                    <label for="check22">22</label> 
+                                                </td>
+                                                <td class="seat-nb">
+                                                    <input type="checkbox" id="check23">
+                                                    <label for="check23">23</label> 
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                         </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-next">
+                <button><p>Tiếp Theo</p></button>
+                <button><p>Hoàn Thành</p></button>
+            </div>
+        </div>
+        <!--Mua ve thanh cong-->
+        <div class="creat-booking">
+            <p>Mua vé thành công!!!</p>
+        </div>
+        <div class="row">
+            <div class="col l-12 c-12 m-12">
+                <div class="result">
+                    <p>Phim</p>
+                    <p class="result-movie"></p>
+                    <p>Lịch</p>
+                    <p class="result-date"></p>
+                    <p>Địa chỉ</p>
+                    <p class="result-stand"></p>
+                    <p>Ghế</p>
+                    <p class="result-seat"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--footer-->
+    <footer>
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-6 c-6">
+                    <ul class="down-list">
+                        <li class="down-item">
+                            <h3>Tải ứng dụng</h3>
+                        </li>
+                        <li class="down-item">
+                            <img src="assets/img/down/tải xuống.png" alt="">
+                        </li>
+                        <li class="down-item">
+                            <img src="assets/img/down/google-play-badge.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col l-3 m-6 c-6">
+                    <ul class="Resources-list">
+                        <li class="Resources-item">
+                            <h3>Thông tin</h3>
+                        </li>
+                        <li class="Resources-item">
+                            <a href="">Về chúng tôi</a> 
+                        </li>
+                        <li class="Resources-item">
+                            <a href="">Tuyển dụng</a> 
+                        </li>
+                        <li class="Resources-item">
+                            <a href="">Trợ giúp</a> 
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col l-3 m-6 c-6">
+                    <ul class="legal-list">
+                        <li class="legal-item">
+                            <h3>Pháp lí</h3>
+                        </li>
+                        <li class="legal-item">
+                            <a href="">Điều khoản sử dụng</a>
+                        </li>
+                        <li class="legal-item">
+                            <a href="">Chính sách bảo mật</a>
+                        </li>
+                        <li class="legal-item">
+                            <a href="">Bảo vệ</a>
+                        </li>
+                    </ul>
+                </div>     
+                
+                <div class="col l-3 m-6 c-6">
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <h3>Liên hệ</h3>
+                        </li>
+                        <li class="contact-item">
+                            <a href="">0988562144</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="">support@CINEMAS.com</a> 
+                        </li>
+                        <li class="contact-item">
+                            <span class="item--icon">
+                                <i class="fab fa-facebook-square"></i>
+                            </span>
+                            <span class="item--icon">
+                                <i class="fab fa-instagram-square"></i>
+                            </span>
+                            <span class="item--icon">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                            <span class="item--icon">
+                                <i class="fab fa-yahoo"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="coppy-right">
+                <p>&copy;2020 <a href="">CINEMAS</a>. Creat by Team 2</p>
+            </div>
+        </div>
+    </footer>
+    <!--Sign In-->
+    <div class="modal">
+        <div class="overlay-modal"></div>
+        <div class="modal--above">
+            <span class="modal-icon">
+                <i class="far fa-times-circle"></i>
+            </span>
+            <div class="modal-form">
+                <div class="modal-heading">
+                    <div class="label">
+                        <h1>THE <span>CINEMA</span></h1>
+                    </div>
+                </div>
+                <div class="modal-infor">
+                    <input type="text" placeholder="Email...">
+                </div>
+                <div class="modal-infor">
+                    <input type="password" placeholder="Password...">
+                </div>
+                <div class="modal-infor">
+                    <input type="checkbox">
+                    <label for="">Ghi nhớ tài khoản</label>
+                </div>
+                <div class="modal-sign-in">
+                    <a href="#">Sign in</a>
+
+                </div>
+                <div class="modal-sign-up">
+                    <span>Bạn muốn đăng ký ?</span>
+                    <a href="#">Sign up!</a>
+                </div>
+                <div class="modal-forgot">
+                    <a href="#">Bạn quên mật khẩu ?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sign UP-->
+    <div class="modal">
+        <div class="overlay-modal"></div>
+        <div class="modal--above">
+            <span class="modal-icon">
+                <i class="far fa-times-circle"></i>
+            </span>
+            <div class="modal-form">
+                <div class="modal-heading">
+                    <div class="label">
+                        <h1>THE <span>CINEMA</span></h1>
+                    </div>
+                </div>
+                <div class="modal-infor">
+                    <input type="text" placeholder="Name...">
+                </div>
+                <div class="modal-infor">
+                    <input type="email" placeholder="Email...">
+                </div>
+                <div class="modal-infor skill">
+                    <input type="password" placeholder="Password...">
+                </div>
+                <div class="modal-infor-check">
+                    <input type="checkbox">
+                    <label for="">Bạn đồng ý điều khoản bảo mật</label>
+                </div>
+                <div class="modal-sign-in">
+                    <a href="#">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-menu"></div>
+    <div class="menu ">
+        <div class="menu-right">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="">
+                        Mua vé
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="">
+                        Phim
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="">
+                        Rạp chiếu
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="">
+                        Khuyến mãi
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
