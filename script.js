@@ -27,8 +27,9 @@ let autoSlider = () =>{
     }
     sliderItems[index].classList.add('active');
     dots[index].classList.add('blur');
-    setTimeout(autoSlider, 5000)
+
 }
+setInterval(autoSlider,5000)
 
 /*===== NEXT SLIDER =====*/
 let nextSliderBtn = $('.slider-btn-right');
